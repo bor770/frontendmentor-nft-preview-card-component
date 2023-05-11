@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  --color-primary-soft-blue: hsl(215, 51%, 70%);
+  --color-primary-cyan: hsl(178, 100%, 50%);
+
+  --color-neutral-very-dark-blue-main: hsl(217, 54%, 11%);
+  --color-neutral-very-dark-blue-card: hsl(216, 50%, 16%);
+  --color-neutral-very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+}
+
+body {
+  align-items: center;
+  background-color: var(--color-neutral-very-dark-blue-main);
+  display: flex;
+  font-family: "Outfit", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.125rem;
+  justify-content: center;
+}

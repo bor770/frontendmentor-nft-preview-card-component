@@ -1,0 +1,55 @@
+:host {
+  background-color: var(--color-neutral-very-dark-blue-card);
+  border-radius: 15px;
+  color: var(--color-primary-soft-blue);
+  font-weight: 300;
+  height: 34.062rem;
+  padding: 1.562rem;
+  width: 20.625rem;
+}
+
+.equilibrium {
+  border-radius: 5px;
+  margin-bottom: 1.1rem;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 1.38rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.text {
+  margin-bottom: 1.25rem;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+footer {
+  align-items: center;
+  border-top: 1px solid var(--color-neutral-very-dark-blue-line);
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2.1rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  letter-spacing: -0.3px;
+}
+
+.author {
+  color: white;
+}

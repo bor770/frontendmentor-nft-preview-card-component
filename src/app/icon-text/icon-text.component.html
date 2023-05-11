@@ -1,0 +1,9 @@
+<mat-icon [svgIcon]="data.icon"></mat-icon>
+<span
+  class="text"
+  [ngStyle]="{
+    color: 'var(--color-primary-' + data.color + ')',
+    fontWeight: data.weight
+  }"
+  >{{ data.text }}</span
+>
