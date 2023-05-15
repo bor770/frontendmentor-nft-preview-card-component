@@ -1,15 +1,13 @@
 <main>
   <article>
-    <img
-      class="equilibrium"
-      src="../assets/images/image-equilibrium.jpg"
-      alt="Equilibrium"
-    />
+    <app-equilibrium></app-equilibrium>
     <h1>Equilibrium #3429</h1>
     <p class="text">Our Equilibrium collection promotes balance and calm.</p>
     <div class="bottom-row">
-      <app-icon-text [data]="bottomRow[0]"></app-icon-text>
-      <app-icon-text [data]="bottomRow[1]"></app-icon-text>
+      <app-icon-text
+        *ngFor="let item of bottomRow"
+        [data]="item"
+      ></app-icon-text>
     </div>
     <footer>
       <img

@@ -1,0 +1,29 @@
+:host {
+  align-items: center;
+  background-color: var(--color-primary-cyan);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+:host:hover {
+  cursor: pointer;
+}
+
+.equilibrium {
+  width: 100%;
+}
+
+:host:hover .equilibrium {
+  opacity: 0.5;
+}
+
+.view {
+  display: none;
+  position: absolute;
+}
+
+:host:hover .view {
+  display: block;
+}

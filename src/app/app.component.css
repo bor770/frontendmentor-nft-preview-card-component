@@ -8,20 +8,24 @@
   width: 20.625rem;
 }
 
-.equilibrium {
-  border-radius: 5px;
+app-equilibrium {
   margin-bottom: 1.1rem;
-  width: 100%;
 }
 
 h1 {
   color: white;
   font-size: 1.38rem;
-  font-weight: 600;
   margin-bottom: 0.9rem;
 }
 
+h1:hover {
+  color: var(--color-primary-cyan);
+  cursor: pointer;
+}
+
 .text {
+  font-size: 1rem;
+  line-height: 1.45;
   margin-bottom: 1.25rem;
 }
 
@@ -52,4 +56,37 @@ footer {
 
 .author {
   color: white;
+}
+
+.author:hover {
+  color: var(--color-primary-cyan);
+  cursor: pointer;
+}
+
+@media (min-width: 90rem) {
+  :host {
+    height: 37.5rem;
+    width: 21.875rem;
+  }
+
+  app-equilibrium {
+    margin-bottom: 1.65rem;
+  }
+
+  h1 {
+    margin-bottom: 1.05rem;
+  }
+
+  .text {
+    font-size: unset;
+    margin-bottom: 1.5rem;
+  }
+
+  .bottom-row {
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-text {
+    letter-spacing: 0.1px;
+  }
 }
