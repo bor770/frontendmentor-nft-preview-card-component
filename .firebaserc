@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "frontendmentor-nft-preview": {
+      "hosting": {
+        "nft-preview-card-component": [
+          "frontendmentor-nft-preview"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "frontendmentor-nft-preview"
+  }
+}
